@@ -74,10 +74,4 @@ script:
   # resetting flag
   - set +e
 notifications:
-  email: true
-  webhooks:
-    urls:
-      - https://webhooks.gitter.im/e/4eb609958a03b4bc1df5
-    on_success: always  # options: [always|never|change] default: always
-    on_failure: always  # options: [always|never|change] default: always
-    on_start: always    # options: [always|never|change] default: always
+  email: false
